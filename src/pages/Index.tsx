@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, MapPin, Clock, Star, Leaf, Scissors, Mountain, Sprout, Trees, Droplets, ArrowRight, Check, Menu } from "lucide-react";
+import { Phone, MapPin, Clock, Star, Leaf, Scissors, Mountain, Sprout, Trees, Droplets, ArrowRight, Check, Menu, Trash2 } from "lucide-react";
 import { useState } from "react";
 import heroImage from "@/assets/hero-crepe-myrtle.jpg";
 import workMulchBed from "@/assets/work-mulch-bed.jpg";
@@ -17,6 +17,7 @@ const services = [
   { icon: Sprout, title: "Sod & Seeding", desc: "Fresh sod installation and grass seeding for lush, healthy lawns." },
   { icon: Trees, title: "Tree & Shrub Care", desc: "Planting, pruning, removal, and seasonal cleanup services." },
   { icon: Droplets, title: "Drainage & Grading", desc: "Yard drainage solutions and grading to protect your property." },
+  { icon: Trash2, title: "Dumpster Rentals", desc: "Roll-off dumpster rentals for construction sites, residential cleanouts, and commercial projects." },
 ];
 
 const reviews = [
