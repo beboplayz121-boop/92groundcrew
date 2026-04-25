@@ -271,7 +271,7 @@ const Index = () => {
                 </div>
                 <div>
                   <div className="font-semibold text-lg">(443) 669-3728</div>
-                  <div className="text-sm text-muted-foreground">Tap to call — open 24 hours</div>
+                  <div className="text-sm text-muted-foreground">Tap to call during business hours</div>
                 </div>
               </a>
               <div className="flex items-start gap-4">
@@ -288,8 +288,9 @@ const Index = () => {
                   <Clock className="w-5 h-5" />
                 </div>
                 <div>
-                  <div className="font-semibold text-lg">Open 24 Hours</div>
-                  <div className="text-sm text-muted-foreground">Serving Salisbury, Delmar, Laurel, Pittsville & beyond</div>
+                  <div className="font-semibold text-lg">Mon–Fri: 7am – 5pm</div>
+                  <div className="text-sm text-muted-foreground">Sat: 9am – 12pm · Closed Sunday</div>
+                  <div className="text-sm text-muted-foreground mt-1">Serving Salisbury, Delmar, Laurel, Pittsville & beyond</div>
                 </div>
               </div>
             </div>
