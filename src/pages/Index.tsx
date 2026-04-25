@@ -1,13 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, Star, Leaf, Scissors, Mountain, Sprout, Trees, Droplets, ArrowRight, Check, Menu } from "lucide-react";
 import { useState } from "react";
-import heroImage from "@/assets/hero-landscape.jpg";
-import mowingImg from "@/assets/service-mowing.jpg";
-import stoneImg from "@/assets/service-stone.jpg";
-import sodImg from "@/assets/service-sod.jpg";
-import gallery1 from "@/assets/gallery-1.jpg";
-import gallery2 from "@/assets/gallery-2.jpg";
-import gallery3 from "@/assets/gallery-3.jpg";
+import heroImage from "@/assets/hero-crepe-myrtle.jpg";
+import workMulchBed from "@/assets/work-mulch-bed.jpg";
+import workLawnAerial from "@/assets/work-lawn-aerial.jpg";
+import workShrubs from "@/assets/work-shrubs.jpg";
+import workFrontLawn from "@/assets/work-front-lawn.jpg";
+import workDeckBed from "@/assets/work-deck-bed.jpg";
+import workFence from "@/assets/work-fence.jpg";
+import workDrainage from "@/assets/work-drainage.jpg";
 
 const services = [
   { icon: Scissors, title: "Lawn Maintenance", desc: "Weekly & bi-weekly mowing, edging, and trimming for a perfect lawn year-round." },
@@ -25,12 +26,13 @@ const reviews = [
 ];
 
 const gallery = [
-  { src: gallery1, label: "Pool Landscaping" },
-  { src: gallery2, label: "Driveway Design" },
-  { src: gallery3, label: "Garden & Trees" },
-  { src: stoneImg, label: "Stone Features" },
-  { src: sodImg, label: "Fresh Sod" },
-  { src: mowingImg, label: "Lawn Care" },
+  { src: workShrubs, label: "Front Bed Design" },
+  { src: workMulchBed, label: "Mulch Refresh" },
+  { src: workLawnAerial, label: "Precision Mowing" },
+  { src: workFrontLawn, label: "Curb Appeal" },
+  { src: workDeckBed, label: "New Plantings" },
+  { src: workFence, label: "Yard & Fencing" },
+  { src: workDrainage, label: "Drainage & Cleanup" },
 ];
 
 const Index = () => {
@@ -154,7 +156,7 @@ const Index = () => {
           </div>
           <div className="relative">
             <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-elegant">
-              <img src={mowingImg} alt="Professional landscaper mowing a striped lawn" loading="lazy" width={1024} height={1024} className="w-full h-full object-cover" />
+              <img src={workLawnAerial} alt="Aerial view of freshly mowed lawn with precision stripe pattern" loading="lazy" className="w-full h-full object-cover" />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-card p-6 rounded-2xl shadow-elegant max-w-xs hidden md:block">
               <div className="flex gap-1 mb-2">
