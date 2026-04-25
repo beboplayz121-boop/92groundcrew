@@ -26,12 +26,13 @@ const reviews = [
 ];
 
 const gallery = [
-  { src: gallery1, label: "Pool Landscaping" },
-  { src: gallery2, label: "Driveway Design" },
-  { src: gallery3, label: "Garden & Trees" },
-  { src: stoneImg, label: "Stone Features" },
-  { src: sodImg, label: "Fresh Sod" },
-  { src: mowingImg, label: "Lawn Care" },
+  { src: workShrubs, label: "Front Bed Design" },
+  { src: workMulchBed, label: "Mulch Refresh" },
+  { src: workLawnAerial, label: "Precision Mowing" },
+  { src: workFrontLawn, label: "Curb Appeal" },
+  { src: workDeckBed, label: "New Plantings" },
+  { src: workFence, label: "Yard & Fencing" },
+  { src: workDrainage, label: "Drainage & Cleanup" },
 ];
 
 const Index = () => {
