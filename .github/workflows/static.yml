@@ -26,10 +26,17 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Prepare static files
+        run: |
+          mkdir -p github-pages
+          cp index.html github-pages/index.html
+          cp index.html github-pages/404.html
+          cp .nojekyll github-pages/.nojekyll
+          cp -R assets github-pages/assets
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: './github-pages'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
